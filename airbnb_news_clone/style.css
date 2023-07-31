@@ -1,0 +1,122 @@
+.navbar.navbar-brand > small {
+    margin-top: 12px;
+    padding: 0px 6px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.language-selector .language-button{
+    border: none;
+    background: none;
+}
+.language-arrow {
+    transform: rotate(90deg);
+}
+img {
+    border-radius: 12px;
+}
+button.read-more {
+    background-color: #e31c5f;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    height: 48px;
+    width: 129px;
+    margin-top: 24px;
+}
+.aspectRatioBox {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(2 / 3 * 100%);
+    overflow: hidden;
+    border-radius: 12px;
+}
+.eco-aspectRatioBox {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(2 / 3 * 100%);
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.aspectRatioBoxVertical {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(3 /2 * 100);
+    overflow: hidden;
+    border-radius: 12px;
+}
+.scrollableRow {
+    overflow-x: auto;
+}
+.scrollableRow > [class*=col-] {
+    display: inline-block;
+}
+.article-block {
+    border-radius: 12px;
+    border-color: grey;
+    display: block;
+}
+.article-block > img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;   
+}
+svg.logo {
+    margin: 2px;
+    border-radius: 50%;
+}
+.social-media-icons .icon {
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
+button.learn-more {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    height: 48px;
+    width: 129px;
+    margin-top: 24px;
+}
+.footer-column > ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-column > ul > li > a {
+    color: black;
+}
+.footer-icons .icon {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+}
+.footer-column {
+    border-bottom: 1px solid gainsboro;
+}
+.footer-column > li:hover {
+    text-decoration: underline;
+}
+footer {
+    margin: 15px;
+}
+h3 {
+    margin: 10px 0px;
+}
+.article-block >small {
+    margin: 10px;
+}
+.article-block > h3 {
+    margin: 10px;
+}
+h4 {
+    margin: 10px 0px;
+}
