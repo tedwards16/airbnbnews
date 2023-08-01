@@ -12,12 +12,15 @@
   <body>
     <!-- Navbar -->
     <header class="header">
-        <nav class="navbar">
-          <a class="navbar navbar-brand navbar-light" href="#">
-            <img src="./images/airbnb-495243.png" width="30" height="32"><small class="align-middle text-dark">News</small>
+        <div class="navbar d-flex justify-content-between">
+          <a class="navbar navbar-brand navbar-light d-flex" href="#">
+            <div>
+              <img src="./images/airbnb-495243.png" width="30" height="32">
+              <small class="align-middle text-dark">News</small>
+            </div>
           </a>
-          <div class="navbar navbar-collapsable d-inline-block">
-            <ul class="navbar-nav list-group list-group-horizontal">
+          <div class="navbar navbar-collapsable d-inline-block d-flex justify-content-end">
+            <ul class="navbar-nav list-group list-group-horizontal d-flex align-items-center">
               <li class="group-item"><a class="py-3 px-2 text-dark" href="#">About us</a></li>
               <li class="group-item"><a class="py-3 px-2 text-dark" href="#">Media</a></li>
               <li class="group-item"><a class="py-3 px-2 text-dark" href="#">Product releases</a></li>
@@ -38,17 +41,16 @@
               </a></li>
             </ul>
           </div>
-        </nav>
-      <hr/>
+        </div>
     </header>
-    
+    <hr/>
     <!-- Main -->
     <div class="container py-4">
       <div class="row">
-        <div class="col-12 col-md-7 order-md-2">
+        <div class="col-12 col-md-7 order-md-2 d-flex">
           <img src="./images/paris-anthony-delanoix-__TFY6uE-L8-unsplash.jpg" class="w-100">
         </div>
-        <div class="col-12 col-md-5 order-md-1">
+        <div class="col-12 col-md-5 order-md-1 d-flex justify-content-center flex-column">
           <small class="text-muted m-0">July 26, 2023</small>
           <h1>Unprecedented interest in the Paris Region during Olympic Games Paris 2024</h1>
           <button class="read-more">Read more</button>
@@ -237,11 +239,11 @@
       </div>
     </div>
     <!--Follow section-->
-    <div class="container py-5">
+    <div class="container py-5 d-flex">
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center flex-column">
           <h5>Follow Airbnb for news and travel inspiration</h5>
-          <div class="social-media-icons">
+          <div class="social-media-icons d-flex">
             <div class="icon pt-1">
               <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0882 5.6329C17.0882 5.6329 18.4518 5.52196 19 5.10112C19 5.10112 18.8682 5.58535 17.2287 7.11729C17.2287 7.11729 17.7804 15.3862 9.36279 17.4111C9.36279 17.4111 5.09328 18.3514 2 15.9549C2 15.9549 5.239 16.5483 7.06062 14.4723C7.06062 14.4723 4.70987 14.497 3.96734 12.0265C3.96734 12.0265 4.8556 12.2237 5.383 11.9772C5.383 11.9772 2.71997 11.4084 2.76855 8.41854C2.76855 8.41854 3.48852 8.96264 4.13563 8.86403C4.13563 8.86403 1.73803 6.76335 3.22482 4.14498C3.22482 4.14498 6.4378 8.05933 10.4211 7.8269C10.3517 7.54693 10.3135 7.25287 10.3135 6.95C10.3135 5.00427 11.8454 3.4248 13.7364 3.4248C14.6906 3.4248 15.5545 3.82804 16.1756 4.47779C16.6302 4.48483 17.567 4.40207 18.5021 3.71182C18.4986 3.71358 18.5524 4.46722 17.0882 5.6329Z" fill="#222222"></path>
@@ -264,23 +266,23 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3 d-flex">
           <div class="row">
             <div class="col-12">
               <img src="images/travel-timo-stern-iUBgeNeyVy8-unsplash.jpg" class="img-fluid">
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3 d-flex">
           <div class="row">
             <div class="col-12">
               <img src="images/ceo-sara-dubler-dDE6naQBc2Q-unsplash.jpg" class="img-fluid">
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center">
+        <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center flex-column justify-content-center">
           <h5>Hear more from Co‑founder and CEO Brian Chesky</h5>
-          <!-- Get the latest button link -->
+          <button class="learn-more">Learn More</button>
         </div>
       </div>
     </div>    
@@ -288,46 +290,46 @@
     <footer class="bg-light m-0 p-4">
       <div class="row p-2">
         <div class="footer-column col-lg-3">
-          <h4>Support</h4>
+          <h4><small>Support</small></h4>
           <ul>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">AirCover</a></li>
-            <li><a href="#">Supporting people with disabilities</a></li>
-            <li><a href="#">Cancellation options</a></li>
-            <li><a href="#">Our COVID-19 Response</a></li>
-            <li><a href="#">Report a neighborhood concern</a></li>
+            <li><a href="#"><small>Help Center</small></a></li>
+            <li><a href="#"><small>AirCover</small></a></li>
+            <li><a href="#"><small>Supporting people with disabilities</small></a></li>
+            <li><a href="#"><small>Cancellation options</small></a></li>
+            <li><a href="#"><small>Our COVID-19 Response</small></a></li>
+            <li><a href="#"><small>Report a neighborhood concern</small></a></li>
           </ul>
         </div>
         <div class="footer-column col-lg-3">
-          <h4>Community</h4>
+          <h4><small>Community</small></h4>
           <ul>
-            <li><a href="#">Airbnb.org: disaster relief housing</a></li>
-            <li><a href="#">Combating discrimination</a></li>
+            <li><a href="#"><small>Airbnb.org: disaster relief housing</small></a></li>
+            <li><a href="#"><small>Combating discrimination</small></a></li>
           </ul>
         </div>
         <div class="footer-column col-lg-3">
-          <h4>Hosting</h4>
+          <h4><small>Hosting</small></h4>
           <ul>
-            <li><a href="#">Airbnb your home</a></li>
-            <li><a href="#">AirCover for Hosts</a></li>
-            <li><a href="#">Explore hosting resources</a></li>
-            <li><a href="#">Visit our community forum</a></li>
-            <li><a href="#">How to host responsibly</a></li>
+            <li><a href="#"><small>Airbnb your home</small></a></li>
+            <li><a href="#"><small>AirCover for Hosts</small></a></li>
+            <li><a href="#"><small>Explore hosting resources</small></a></li>
+            <li><a href="#"><small>Visit our community forum</small></a></li>
+            <li><a href="#"><small>How to host responsibly</small></a></li>
           </ul>
         </div>
         <div class="footer-column col-lg-3">
-          <h4>About</h4>
+          <h4><small>About</small></h4>
           <ul>
-            <li><a href="#">Newsroom</a></li>
-            <li><a href="#">Learn about new features</a></li>
-            <li><a href="#">Letter from our founders</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Investors</a></li>
+            <li><a href="#"><small>Newsroom</small></a></li>
+            <li><a href="#"><small>Learn about new features</small></a></li>
+            <li><a href="#"><small>Letter from our founders</small></a></li>
+            <li><a href="#"><small>Careers</small></a></li>
+            <li><a href="#"><small>Investors</small></a></li>
           </ul>
         </div>
         <div class="col-lg-6 py-2">
-          <h4>Disclaimer</h4>
-          <p>The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.</p>
+          <h4><small>Disclaimer</small></h4>
+          <p><small>The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.</small></p>
         </div>
       </div>
       <hr/>

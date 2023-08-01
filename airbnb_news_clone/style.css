@@ -89,8 +89,9 @@ button.learn-more {
     list-style: none;
     padding-left: 0px;
 }
-.footer-column > ul > li > a {
+.footer-column > ul > li > a > small{
     color: black;
+    font-weight: 300;
 }
 .footer-icons .icon {
     display: inline-block;
@@ -102,11 +103,17 @@ button.learn-more {
 .footer-column {
     border-bottom: 1px solid gainsboro;
 }
+@media (min-width:750px) {
+    .footer-column {
+        border: none;
+    }
+}
 .footer-column > li:hover {
     text-decoration: underline;
 }
 footer {
     margin: 15px;
+    font-size: 1;
 }
 h3 {
     margin: 10px 0px;
@@ -119,4 +126,11 @@ h3 {
 }
 h4 {
     margin: 10px 0px;
+}
+h4 > small {
+    font-size: 12px;
+    font-weight: 700;
+}
+h5 {
+    text-align: center;
 }
